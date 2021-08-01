@@ -1,0 +1,26 @@
+.container{
+  width: 100%;
+  height: 100vh;
+  max-width: 950px;
+  margin-left: 2rem;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+    h1{
+      font-weight: bold;
+      font-size: 2rem;
+      color: #FFF;
+      margin-bottom: 2rem;
+    }
+}
+
+.knowledgeBorder{
+  background: rgb(28, 28, 28);
+  padding: 1rem;
+  ul{
+    list-style: none;
+  }
+  li{
+    color: #53626C;
+  }
+}

@@ -2,8 +2,13 @@
   width: 100%;
   height: 100vh;
   display: flex;
-
+  background: black;
 }
+.content{
+  display: flex;
+  flex-direction: column;
+}
+/*
 .text{
   text-align: center;
   align-items: center;
@@ -15,6 +20,6 @@
   p + p{
     margin-top: 1.5rem;
   }
-}
+}*/
 
 
