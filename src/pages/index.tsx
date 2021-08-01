@@ -1,5 +1,4 @@
 import React from "react";
-
 import styles from '../styles/styles.module.scss';
 import { Bio } from "../components/Bio";
 import { SideBar } from "../components/SideBar";
@@ -13,7 +12,6 @@ export default function Home() {
         <Bio />
         <Knowledge />
       </section>
-
     </div >
   )
 }

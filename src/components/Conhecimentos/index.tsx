@@ -4,16 +4,25 @@ export function Knowledge() {
     <div className={styles.container}>
       <h1 >| Conhecimentos</h1>
       <div className={styles.knowledgeBorder}>
-        <ul>
-          <li>1</li>
-          <li>2</li>
-          <li>3</li>
-          <li>4</li>
-          <li>5</li>
-          <li>6</li>
-          <li>7</li>
-          <li>8</li>
-          <li>9</li>
+        <ul className={styles.list}>
+          <li>
+            <img src="/html.svg"/>
+          </li>
+          <li>
+            <img src="/css.svg"/>
+          </li>
+          <li>
+            <img src="javascript.svg"/>
+          </li>
+          <li>
+            <img src="react.svg"/>
+          </li>
+          <li>
+            <img src="Sass.svg"/>
+          </li>
+          <li>
+            <img src="git.svg"/>
+          </li>
         </ul>
       </div>
     </div>

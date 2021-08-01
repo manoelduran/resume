@@ -16,11 +16,32 @@
 
 .knowledgeBorder{
   background: rgb(28, 28, 28);
-  padding: 1rem;
+  padding: 2rem;
+  border-radius: 2rem;
+  max-width: 950px;
+  width: 100%;
   ul{
     list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1.5rem;
   }
   li{
-    color: #53626C;
+    background: #53626C;
+    margin-right: 2rem;
+    border-radius: 1rem;
+    padding: 2rem;
+  }
+  li + li{
+    margin-right: 2rem;
+  }
+  img{
+    width: 50px;
+    height: 50px;
   }
 }
+/*
+
+
+*/
