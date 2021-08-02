@@ -1,27 +1,34 @@
 import styles from './styles.module.scss';
+import Image from 'next/image';
 export function Knowledge() {
   return (
     <div className={styles.container}>
       <h1 >| Conhecimentos</h1>
       <div className={styles.knowledgeBorder}>
-        <ul className={styles.list}>
-          <li>
-            <img src="/html.svg"/>
+        <ul >
+          <li className={styles.list}>
+            <Image src="/html.svg" width="50px" height="50px"/>
+            <span>HTML</span>
           </li>
-          <li>
-            <img src="/css.svg"/>
+          <li className={styles.list}>
+            <Image src="/css.svg" width="50px" height="50px"/>
+            <span>CSS</span>
           </li>
-          <li>
-            <img src="javascript.svg"/>
+          <li className={styles.list}>
+            <Image src="/javascript.svg" width="50px" height="50px"/>
+            <span>Javacript</span>
           </li>
-          <li>
-            <img src="react.svg"/>
+          <li className={styles.list}>
+            <Image src="/react.svg" width="50px" height="50px"/>
+            <span>React</span>
           </li>
-          <li>
-            <img src="Sass.svg"/>
+          <li className={styles.list}>
+            <Image src="/Sass.svg" width="50px" height="50px"/>
+            <span>Sass</span>
           </li>
-          <li>
-            <img src="git.svg"/>
+          <li className={styles.list}>
+            <Image src="/git.svg" width="50px" height="50px"/>
+            <span>Git</span>
           </li>
         </ul>
       </div>

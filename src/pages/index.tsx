@@ -3,6 +3,7 @@ import styles from '../styles/styles.module.scss';
 import { Bio } from "../components/Bio";
 import { SideBar } from "../components/SideBar";
 import { Knowledge } from "../components/Conhecimentos";
+import { ButtonHome } from "../components/ButtonHome";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <section className={styles.content}>
         <Bio />
         <Knowledge />
+        <ButtonHome />
       </section>
     </div >
   )
