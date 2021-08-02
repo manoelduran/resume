@@ -4,15 +4,9 @@
   box-sizing: border-box;
 }
 
-@media (max-width: 1080px){
+@media screen and (min-width: 651px) and (max-width: 900px){
   html{
-    font-size: 93.75%;
-  }
-}
-
-@media (max-width: 720px){
-  html{
-    font-size: 87.5%;
+    font-size: 93.5%;
   }
 }
 

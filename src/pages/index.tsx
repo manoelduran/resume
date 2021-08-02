@@ -8,7 +8,9 @@ import { ButtonHome } from "../components/ButtonHome";
 export default function Home() {
   return (
     <div className={styles.container}>
-      <SideBar />
+      <section className={styles.sidebarContent}>
+        <SideBar />
+      </section>
       <section className={styles.content}>
         <Bio />
         <Knowledge />
