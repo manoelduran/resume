@@ -4,11 +4,15 @@
   box-sizing: border-box;
 }
 
+@media screen and (max-width: 900px){
+  html{
+    font-size: 81.25%;
+  }
+}
+
 body{
   height: 100%;
   width: 100%;
-  overflow: hidden;
-  
 }
 
 body, input, textarea, select, button{

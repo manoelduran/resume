@@ -19,17 +19,22 @@
 
 @media screen and (max-width: 900px){
   .container{
-    height: 20vh;
+    height: 100vh;
     width: 100%;
+
       h1{
+        margin-left: 2rem;
+        width: 70%;
         margin-top: 2vh;
         font-weight: bold;
-        font-size: 1.5rem;
+        font-size: 2rem;
         color: #FFF;
       }
       p{
+        margin-left: 2rem;
+        width: 70%;
         margin-top: 2vh;
-        font-size: 0.7rem;
+        font-size: 1rem;
         color: #FFF;
       }
   }
