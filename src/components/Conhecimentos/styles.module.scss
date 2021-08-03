@@ -57,6 +57,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    overflow: scroll;
       h1{
         margin-left: 2rem;
         margin-top: 2vh;
@@ -71,15 +72,16 @@
     height: 55vh;
     background: rgb(28, 28, 28);
     border-radius: 2rem;
-    overflow: scroll;
+    
     ul{
       list-style: none;
       display: grid;
       grid-template-columns: repeat(2, 0.5fr);
       grid-gap: 0.5rem;
+      padding-left: 1rem;
     }
     li{
-      margin-left: 0.5rem;
+      margin-left: 1rem;
       background: #53626C;
       border-radius: 1rem;
     }
