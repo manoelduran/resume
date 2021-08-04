@@ -2,10 +2,10 @@
   width: 100%;
   height: 100vh;
   display: flex;
-  background: black;
 }
 .sidebarContent{
   width: 20%;
+  border: 1px solid rgba(19,121,9,0.9472163865546218);
 }
 .content{
   width: 80%;
@@ -19,6 +19,8 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
+  background: rgb(2,0,36);
+background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(19,121,9,0.9472163865546218) 100%, rgba(0,212,255,1) 100%);
 }
 .sidebarContent{
   width: 100%;
